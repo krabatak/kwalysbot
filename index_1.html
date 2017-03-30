@@ -1,0 +1,38 @@
+﻿<html>
+    <head>
+        <base href="http://local.dev/chatbot/" target="_blank">
+        <link rel="stylesheet" href="css/normalize.min.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
+        <link rel="stylesheet prefetch" href="https://fonts.googleapis.com/css?family=Open+Sans">
+    </head>
+    <body>
+        <div class="chat">
+            <div class="chat-title">
+                <h1>Kwalys Bot 
+                    <strong style="float: right;margin-right: 20px;margin-top: 3px;">
+                        <a href="#" id="openChat"><i class="fa fa-question-circle fa-2x"></i></a>
+                        <a href="#" id="closeChat" style="display:none;"><i class="fa fa-times fa-2x"></i></a>
+                    </strong>
+                </h1>
+                <h2>V1</h2>
+                <figure class="avatar">
+                    <img src="images/student.png" /></figure>
+            </div>
+            <div class="messages">
+                <div class="messages-content"></div>
+            </div>
+            <div class="message-box">
+                <textarea type="text" class="message-input" placeholder="Tapez votre message..."></textarea>
+                <button type="submit" class="message-submit">Envoyer</button>
+            </div>
+
+        </div>
+        <div class="bg"></div>
+        <script src="js/jquery.min.js"></script>
+        <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+        <script src="js/levenshtein.js"></script>
+        <script src="js/script.js"></script>
+    </body>
+</html>
